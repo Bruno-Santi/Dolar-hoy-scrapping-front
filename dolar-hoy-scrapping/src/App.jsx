@@ -12,7 +12,9 @@ function App() {
   const [count, setCount] = useState(0);
   const getInfo = async () => {
     try {
-      const response = await axios("http://localhost:3001/");
+      const response = await axios(
+        "https://dolar-hoy-scrapping-back.up.railway.app/"
+      );
       const data = response.data;
       setInfo(data);
       setLoading(false);
