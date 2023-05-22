@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Input from "./components/Input";
 import DolarCard from "./components/DolarCard";
 import "./App.css";
 import ReactLoading from "react-loading";
@@ -74,6 +75,7 @@ function App() {
           </div>
         ))}
       </div>
+      <Input />
       <footer className="h-20 w-full bg-slate-700 justify-center content-center text-center shrink-0 mt-auto">
         <Footer />
       </footer>
