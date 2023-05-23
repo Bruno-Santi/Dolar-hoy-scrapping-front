@@ -13,7 +13,7 @@ function App() {
   const getInfo = async () => {
     try {
       const response = await axios(
-        "https://dolar-hoy-scrapping-back.up.railway.app/"
+        "https://dolar-hoy-scrapping-back.onrender.com"
       );
       const data = response.data;
       setInfo(data);
