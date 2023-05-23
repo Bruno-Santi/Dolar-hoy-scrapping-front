@@ -1,11 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Wix+Madefor+Display&display=swap");
-@font-face {
-  font-family: "MANROPE";
-  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Wix+Madefor+Display:wght@400;800&display=swap");
-}
 
 body {
 }
