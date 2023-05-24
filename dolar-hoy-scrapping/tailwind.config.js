@@ -8,6 +8,7 @@ export default {
 
       md: { max: "1400px" },
       // => @media (min-width: 768px and max-width: 1023px) { ... }
+      lg: { min: "1400px" },
     },
     fontFamily: {
       manrope: ["MANROPE"],
